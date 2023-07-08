@@ -9,7 +9,7 @@ const Navbar = ({isScrolled }) => {
     const links = [
         {name:"Home",link: "/"},
         {name:"TV shows",link: "/tv"},
-        {name:"Movies",link: "/movie"},
+        {name:"Movies",link: "/movies"},
         {name:"My List",link: "/mylist"},
     ];
 
