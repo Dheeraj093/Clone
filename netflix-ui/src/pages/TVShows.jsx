@@ -25,7 +25,7 @@ const TVShows = () => {
   
  useEffect(() => {
      if(genresLoaded)
-       dispatch(fetchMovies({type:"tv"}));
+       dispatch(fetchMovies({genres,type:"tv"}));
   },[genresLoaded])
 
   window.onscroll= ()=>{
